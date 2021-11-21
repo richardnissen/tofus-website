@@ -2,6 +2,8 @@ body {
     background-color: white;
     font-family: 'Roboto', arial;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 /* Header stuff */
 .header {
@@ -11,6 +13,7 @@ body {
     color: #FFF;
     padding: 10px 100px;
     background-color: #1F2937;
+    flex: 1;
 }
 
 .header a {
@@ -27,8 +30,45 @@ body {
 
 .header img {
     width: auto;
-    height: 60px;
+    height: 80px;
     border-radius: 25%;
 }
+/* topbox stuff */
+.topbox {
+    display: flex;
+    background-color: #1F2937;
+    gap: 50px;
+    padding: 100px 0px;
+    justify-content: center;
+    align-content: center;
+}
+.topbox h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+.topbox p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.topbox img {
+    width: auto;
+    height: 300px;
+}
+.topbox .left {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-
+.topbox button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    width: fit-content;
+}
