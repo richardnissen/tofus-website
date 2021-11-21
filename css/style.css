@@ -33,8 +33,8 @@ body {
     height: 80px;
     border-radius: 25%;
 }
-/* topbox stuff */
-.topbox {
+/* hero stuff */
+.hero {
     display: flex;
     background-color: #1F2937;
     gap: 50px;
@@ -42,28 +42,28 @@ body {
     justify-content: center;
     align-content: center;
 }
-.topbox h1 {
+.hero h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
     margin: 0;
 }
-.topbox p {
+.hero p {
     font-size: 18px;
     color: #e5e7eb;
 }
-.topbox img {
+.hero img {
     width: auto;
     height: 300px;
 }
-.topbox .left {
+.hero .left {
     flex-basis: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.topbox button {
+.hero button {
     background-color: #3882F6;
     border-radius: 10px;
     border: none;
@@ -71,4 +71,33 @@ body {
     padding: 10px;
     font-weight: bold;
     width: fit-content;
+}
+
+.middle h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1F2937;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
