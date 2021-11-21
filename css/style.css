@@ -117,3 +117,41 @@ body {
     color: #1F2937;
     text-align: center;
 }
+
+.likecommentandsubscribe {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 20px 100px;
+    margin: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likecommentandsubscribe h2 {
+    text-align: left;
+    color: white;
+    font-size: large;
+}
+
+.likecommentandsubscribe p {
+    color: white;
+}
+
+.likecommentandsubscribe button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 30px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: auto;
+}
